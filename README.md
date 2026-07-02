@@ -1,7 +1,44 @@
-Screenshots available in Screenshots folder.
+# Second-Hand Book Trading System
 
-Second-Hand Book Trading System is designed to help students sell their old books from previous years or semesters while making it easier for others to find affordable second-hand textbooks. Many students are left with books they no longer need, and without a structured platform, these books often go unused or discarded. This system provides a convenient way for students to list, browse, and purchase pre-owned books, ensuring that valuable educational resources are reused efficiently. 
+> 📸 **Screenshots are available in the `Screenshots` folder.**
 
-By digitalizing the second-hand book trading process, the system simplifies transactions between buyers and sellers. It offers features such as book listing, order tracking, and online payments, making the process more transparent and efficient. The system ensures that students can easily search for books based on subjects, conditions, and pricing, while sellers can quickly find interested buyers without relying on informal or unreliable methods. 
+The **Second-Hand Book Trading System** is a web-based application developed to help students buy and sell used academic books. It provides a centralized platform where students can list books they no longer need, browse available textbooks, and purchase affordable second-hand books from other students.
 
-Through this project, a sustainable and cost-effective solution that benefits both buyers and sellers, reducing waste while making textbooks more accessible to students in need is aimed to be created.
+The system replaces informal methods of book trading with a structured and user-friendly platform. Buyers can search for books by title, subject, condition, and price, while sellers can easily create listings and connect with potential buyers. The application also supports **online payment integration**, making transactions more convenient and secure.
+
+By encouraging the reuse of educational resources, the project promotes a cost-effective and sustainable solution that reduces textbook waste while improving access to affordable learning materials.
+
+---
+
+## Features
+
+- User registration and authentication
+- Book listing and management
+- Search and filter books by Course or Semester
+- Shopping cart functionality
+- Online payment integration
+- Order tracking
+- User profile management
+- Responsive web interface
+
+---
+
+## Tech Stack
+
+- **PHP**
+- **MySQL**
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Bootstrap**
+- **XAMPP**
+
+---
+
+## Screenshots
+
+Screenshots of the application are available in the **`Screenshots`** folder.
+
+---
+
+This Project was examined and accepted by Tribhuvan University.
