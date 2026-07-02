@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Khalti Test Payment</title>
+    <script src="https://khalti.com/static/khalti-checkout.js"></script>
+</head>
+<body>
+    <button id="payment-button">Pay with Khalti</button>
+
+    <script>
+        var config = {
+            "publicKey": "test_public_key_xxx", 
+            "productIdentity": "1234567769",
+            "productName": "Test Book",
+            "productUrl": "http://localhost/",
+            "paymentPreference": [
+                "KHALTI"
+            ],
+            eventHandler: {
+                onSuccess (payload) {
+                    console.log("Payment successful:", payload);
+                    alert("Success! Now go check your dashboard.");
+                },
+                onError (error) {
+                    console.log(error);
+                    alert("Payment failed. But this is expected if the key is not valid yet.");
+                },
+                onClose () {
+                    console.log("Widget is closing");
+                }
+            }
+        };
+
+        var checkout = new KhaltiCheckout(config);
+        document.getElementById("payment-button").onclick = function () {
+            checkout.show({amount: 1000}); // 1000 paisa = Rs. 10
+        }
+    </script>
+</body>
+</html>
